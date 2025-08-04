@@ -3,7 +3,7 @@ ETL datos historicos BVCDescripción
 Este proyecto se centra en la extracción, limpieza, tratamiento y carga de datos históricos de la Bolsa de Valores de Colombia (BVC). El objetivo es almacenar estos datos procesados en una base de datos MySQL, gestionada a través de un servidor local XAMPP.
 
 ## Características Principales
-Extracción de Datos: Obtiene datos históricos de la BVC de una fuente específica.
+### Extracción de Datos: Se obtienen datos históricos haciendo uso del web scrapping del portal Yahoo Finance.
 
 ### - Limpieza y Tratamiento: Realiza la normalización y depuración de los datos para asegurar su calidad y consistencia.
 
