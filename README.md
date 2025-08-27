@@ -67,5 +67,5 @@ Con este proyecto se busca crear una base sólida para futuros análisis financi
 
 ## 👤 Autor
 **Camilo García Rey**  
-- LinkedIn: [https://www.linkedin.com/in/camilo-garcia-rey/]  
-- GitHub Portfolio: [https://github.com/camilogrey/bvc/edit/main/README.md]  
+- LinkedIn: https://www.linkedin.com/in/camilo-garcia-rey/  
+- GitHub Portfolio: https://github.com/camilogrey/bvc/edit/main/README.md  
