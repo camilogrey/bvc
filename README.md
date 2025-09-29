@@ -1,18 +1,18 @@
-# 📊 ETL de Datos Históricos de la Bolsa de Valores de Colombia (BVC)
+# 📊 ETL de Datos Históricos del IBEX 35 y la BVC
 
 ## 🚀 Descripción
-Este proyecto implementa un flujo **ETL (Extracción, Transformación y Carga)** de datos históricos de la **Bolsa de Valores de Colombia (BVC)**.  
-El objetivo es obtener, limpiar y almacenar datos financieros de alta calidad en una base de datos **MySQL**, gestionada en un entorno local con **XAMPP**.  
+Este proyecto implementa un flujo **ETL (Extracción, Transformación y Carga)** de datos históricos de la **Bolsa de Valores de Colombia (BVC) y el índice bursátil de referencia en el mercado bursátil español (IBEX 35)**.  
+El objetivo es obtener, limpiar y almacenar datos financieros disponibles y de calidad en una base de datos **MySQL**, gestionada en un entorno local con **XAMPP**.  
 
-Con este proyecto se busca crear una base sólida para futuros análisis financieros, modelado de series temporales y visualización de indicadores de mercado.  
+Con este proyecto se busca crear una base sólida para futuros análisis financieros, modelado de series temporales y visualización de indicadores de mercado; y futuras versiones integrando mas nemotecnicos.  
 
 ---
 
 ## 🎯 Objetivos del Proyecto
-- Extraer datos históricos de la BVC desde Yahoo Finance.  
+- Extraer datos históricos de la BVC y el IBEX 35 desde Yahoo Finance.  
 - Limpiar, transformar y normalizar la información para asegurar consistencia.  
 - Almacenar los datos en una base de datos MySQL local.  
-- Preparar el dataset para futuros análisis financieros y dashboards de inversión.  
+- Preparar el dataset para futuros análisis y comparaciones generales financieros y dashboards Sectoriales y de Acciones.  
 
 ---
 
@@ -41,7 +41,8 @@ Con este proyecto se busca crear una base sólida para futuros análisis financi
    - Conversión de formatos de fecha y moneda.  
    - Depuración de datos inconsistentes.  
 3. **Carga:** Inserción en tablas MySQL mediante SQLAlchemy.  
-4. **Almacenamiento:** Base de datos gestionada en servidor local con XAMPP.  
+4. **Almacenamiento:** Base de datos gestionada en servidor local con XAMPP.
+5. Transformación de datos y ajustes de modelado de datos para la presentacion de reportes.   
 
 ---
 
@@ -60,8 +61,10 @@ Con este proyecto se busca crear una base sólida para futuros análisis financi
 
 ## 📌 Próximos pasos
 - Implementar pipelines en la nube (AWS RDS / GCP BigQuery).  
-- Automatizar la actualización diaria de datos.  
-- Integrar visualizaciones en Power BI.  
+- Automatizar la actualización diaria de datos.
+- Aumentar el numero de mercados e indices 
+- Integrar visualizaciones en Power BI.
+- Analisis de series de tiempo y aplicación de algoritmos de Machine Learcni
 
 ---
 
