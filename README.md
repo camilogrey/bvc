@@ -1,4 +1,4 @@
-# 📊 ETL de Datos Históricos del IBEX 35 y la BVC
+# 📊 ETL de Datos Históricos de la BVC y del IBEX 35 
 
 ## 🚀 Descripción
 Este proyecto implementa un flujo **ETL (Extracción, Transformación y Carga)** de datos históricos de la **Bolsa de Valores de Colombia (BVC) y el índice bursátil de referencia en el mercado bursátil español (IBEX 35)**.  
